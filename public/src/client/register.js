@@ -138,7 +138,7 @@ define('forum/register', [
             });
         }
     }
-
+    //
     function validatePassword(password, password_confirm) {
         const password_notify = $('#password-notify');
         const password_confirm_notify = $('#password-confirm-notify');
